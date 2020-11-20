@@ -29,13 +29,16 @@ main .generalInformation #image,#map{
     margin-bottom: 50px;
     margin-top: 50px;
 }
+#map{
+    height:600px;
+}
  .generalInformation #image{
     height: 600px;
     width:500px;
 
  }
 
- /*General Informatio*/
+ /*General Information*/
  .generalInformation h1,.location,ul li,p{
     font-size: 20px;
     font-family: sans-serif;
@@ -72,7 +75,7 @@ h2{
 .aboutMe , .links{
     margin-top: 40px;
 }
-
+/*links to contact*/
  .contact1 #contactLink{
     color:teal;
     text-decoration: none;
@@ -80,7 +83,6 @@ h2{
 p #strong{
     color: teal;
 }
-/*links to contact*/
   .links ol li {
     text-align:left;
     margin-left:400px ;
@@ -100,10 +102,6 @@ p #strong{
 }
 .links ol li a:hover, .contact1 #contactLink:hover{color: green;}
 .links ol li a:active, .contact1 #contactLink:active{color:brown;}
-#map{
-    height:600px;
-}
-
 #footer{
     background-color:black;
     padding:30px;
