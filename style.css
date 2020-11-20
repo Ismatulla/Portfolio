@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header section*/
+header{
+background-color: black !important;
+text-align: center;
+}
+
+hr{
+    border:  1px solid black ;
+}
+header h1, h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    padding:10px;
+}
+/*image and map section*/
+main .generalInformation #image,#map{
+   
+    display: block;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+ .generalInformation #image{
+    height: 600px;
+    width:500px;
+
+ }
+
+ /*General Informatio*/
+ .generalInformation h1,.location,ul li,p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: inherit;
+    text-align: center;
+    line-height: 1.5;
+}
+h2{
+    text-align: center;
+}
+
+.generalInformation .logo {
+    margin-bottom: 20px;
+}
+.generalInformation .contact1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.location,ul li  {
+    color: black;
+    text-align: justify;
+    margin-left: 500px;
+}
+ 
+/*brief introduction about Ismatulla*/
+
+.aboutMe p{
+
+  text-align: left;  
+  padding:20px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.aboutMe , .links{
+    margin-top: 40px;
+}
+
+ .contact1 #contactLink{
+    color:teal;
+    text-decoration: none;
+}
+p #strong{
+    color: teal;
+}
+/*links to contact*/
+  .links ol li {
+    text-align:left;
+    margin-left:400px ;
+}
+
+ .links ol li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+/* pseudocode section*/
+.links ol li a:link, .contact1 #contactLink:link {color:blue;}
+.links ol li a:visited, .contact1 #contactLink:visited{
+ color:red;
+}
+.links ol li a:hover, .contact1 #contactLink:hover{color: green;}
+.links ol li a:active, .contact1 #contactLink:active{color:brown;}
+#map{
+    height:600px;
+}
+
+#footer{
+    background-color:black;
+    padding:30px;
+    color:white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#footer ::before {
+    content: "\00A9";
+  }
+
+header,main{
+    background-color:#f1faee ;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
